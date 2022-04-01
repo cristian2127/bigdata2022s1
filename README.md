@@ -1,2 +1,9 @@
 # bigdata2022s1
-clases de bigdata
+
+descrispcio
+
+##clase 1
+
+
+
+
