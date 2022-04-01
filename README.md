@@ -6,4 +6,5 @@ descrispcio
 
 
 
-
+- se realizo la introduccion a el ramo
+- introduccion e instalaion de git
