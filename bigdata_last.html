@@ -2,20 +2,69 @@
   <head>
     <meta charset="UTF-8">
     <title>pagina de big data</title>
+    <style>
+       /*editando tags */
+        body{
+          background-color:deepskyblue;
+          border: solid rgb(169, 190, 128)
+        }
+        table,tr,th,td{
+          background-color: burlywood;
+          border:solid black
+        }
+          div{
+            border:solid 1px black;
+            margin:20px;
+            padding:10px;
+          }
+          /*editando clases */
+          .titulo{
+              text-align: center;
+          }
+          .centrado{
+            text-align: center;
+          }
+          .unidad{
+            background-color: white;
+          }
+          .titulo-unidad{
+            text-align: center;
+            font-size: 25px;
+             background-color:blue;
+             color: crimson;
+            }
+           .contenido-unidad{
+              color: lavender;
+            
+           }
+
+           /*editando id */
+
+           #titulo-div{
+             color: chocolate; 
+           }
+           #titulo-imagen{
+             color:black;
+           }
+
+              
+          
+    </style>
   </head>
   <body>
-    <div>
+    <div class="titulo-unidad" id="titulo-imagen">
+  
       <h1>big data<h1>
       <div>
-        <h2>unidad html<h2>
-        <p>viendo laS nociones basicas del html</p>
-        <div>
+        <h2 class="titulo">unidad html<h2>
+        <p class="titulo">viendo las nociones basicas del html</p>
+        <div class="unidad" id="titulo-div">
           <h3>link (a)</h3>
           <h6> by cristian</h6>
-          <a href="https://redgol.cl/.html">click aqui</a>
+          <a href="https://redgol.cl/.html" id="titulo-div">click aqui</a>
         </div>
-      </div>
-          <h3>imagen (img)</h3>
+      </div class="unidad">
+          <h3 class="titulo">imagen (img)</h3>
           <img src="UDECHILE.jpg">
           <img src="descarga.jpg">
     </div>     
@@ -23,24 +72,28 @@
 </html>
 
 <div>
-     <table>
+     <table class="titulo">
         <tr>
            <th>club</th>
            <th>region</th>
            <th>pagina</th>
         </tr>
         <tr>
-
+           <!--se creo filas de la tabla-->
            <td>universidad de chile</td>
            <td>santiago</td>
            <td><a href="https://www.udechile.cl/">click aqui</a></td>
 
         </tr>
-        <tr>
-
+         <tr>
            <td>colo colo</td>
            <td>santiago</td>
            <td><a href="https://dalealbo.cl/">click aqui</a></td>
+        </tr>
+        <tr>
+           <td>universidad catolica</td>
+           <td>santiago</td>
+           <td><a href="https://cruzados.cl/">click aqui</a></td>
         </tr>
      </table>
 
