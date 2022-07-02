@@ -74,6 +74,7 @@ var_list <- list("Andres",1,TRUE,"Ana")
 print(var_list)[[2]]
 
 len_var_list <- length(var_list)
+print(len_var_list)
 
 var_list <- c(var_list, "hols")
 
@@ -101,13 +102,77 @@ for(i in 1:10) {
 var_list <- list("Andres",1,TRUE,"Ana","juan","cristian")
 
 #forma numero 1
-for( i in var_list ){
+for(i in var_list ){
   print(i)
+  Sys.sleep(2)
+}
+
+#forma numero1
+
+
+lista_b <- list()
+for (elemento_de_lista in var_list){
+  print()
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#######################################
+
+resp_length <- length(var_list)
+for (posicion in 1:resp_length{
+  print("===nueva iteracion ====")
+  print(paste("estamos en la posicion: ",posicion," - y el valor es: " , var_list[posicion]))
+  print(var_list[posicion])
   Sys.sleep(2)
 }
 
 
 
 
+
+###################################### funciones ####################################
+
+
+reemplazar <- funtion(var_iter,val,reemp){
+  respuesta <- list()
+  for (elemento in var_iter) {
+    print("======nueva iteracion======")
+    print(paste("elemento:", elemento))
+    if (elemento == reemp){
+      print(paste("se reemplaza: ",elemento,"' por '",reem,"'",sep = ""))
+    }
+    respuesta <- c(respuesta, reemp)
+  } else { 
+    respuesta <- c(respuesta, elemento)
+    }
+
+
+Sys.sleep(1)
+prin("fin funcion reemplazar")
+return(respuesta)
+}
+
+
+
+############################################### excel  ##############
+
+
+library(readxl)
+Libro1_2_ <- read_excel("Libro1(2).xlsx", 
+                        sheet = "nivelacion", col_names = FALSE)
+View(Libro1_2_)
   
 
